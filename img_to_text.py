@@ -2,7 +2,7 @@ import requests
 import streamlit as st
 
 API_URL = "https://api-inference.huggingface.co/models/Salesforce/blip-image-captioning-large"
-headers = {"Authorization": "Bearer YOUR KEY"}
+headers = {"Authorization": "Bearer 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"}
 
 def query(file):
     # Directly read the content of the uploaded file
